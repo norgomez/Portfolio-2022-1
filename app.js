@@ -26,13 +26,13 @@ app.get('/IT', function(req, res) {
 });
 
 app.post('/', (req, res) => {
-    let firstName = req.body.fName;
-    let lastName = req.body.lName;
+    let userName = req.body.userName;
     let email = req.body.email;
+    let password = req.body.password;
 
     
 
-    console.log(firstName, lastName, email)
+    console.log(userName, email, password)
 })
 
 
