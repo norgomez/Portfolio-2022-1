@@ -13,5 +13,9 @@ body {
 }
 
 hr {
-  border-top: 3px solid red;
+  border-top: 3px solid rgb(202, 202, 202);
+}
+
+#img-eagle:hover{
+  fill: #fff;
 }
